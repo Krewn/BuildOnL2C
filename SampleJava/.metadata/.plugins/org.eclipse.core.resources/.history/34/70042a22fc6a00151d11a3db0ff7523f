@@ -1,0 +1,22 @@
+package Ex1Pack;
+
+public class ClassToBeImportred {
+	String s; 					 // This is a variable
+	public ClassToBeImportred(){ // This is a constructor. It runs when a new ClassToBeImportred is created.
+		this.s = "hello World";
+	}							 // It is a constructor because it is named the same as the class.
+	
+	public void PrintMessage(){  // this is a method, 
+		System.out.println(this.s);
+	}
+	
+	public void setMessage(String newMessage){ // This is also a method "Void" indicates that it dosn't return anything.
+		this.s = newMessage;
+	}
+	
+	public String getMessage(){ // This method is type String meaning that it returns a string.
+		return(this.s);
+	} // Returning a value means that the method can be used with an equal sign to assign values to variables
+}     // For example String a = new ClassToBeImported().getMessage
+
+// {} define the boundaries of blocks of code. While the grammer is a little different

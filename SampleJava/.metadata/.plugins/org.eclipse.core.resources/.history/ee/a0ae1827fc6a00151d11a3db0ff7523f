@@ -1,0 +1,10 @@
+package ExPack2;
+
+import Ex1Pack.ClassToBeImportred; // This line imports the class "ClassToBeImported"
+
+public class ClassThatImports{
+	ClassToBeImportred MemberVariable; // This line gives the class a variable called MemberVariable  (declairation)
+	public ClassThatImports(){
+		this.MemberVariable = new ClassToBeImportred(); // This 
+	}
+}
