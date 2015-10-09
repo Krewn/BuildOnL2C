@@ -1,0 +1,9 @@
+
+public class Looping{
+	public static void main(String[] args) {
+		for(int k = 0; k <= 5 ; k++){ // Variable initiated is k; condition, k<5 ; action increase k by 1
+			System.out.println("say "+k);
+		}
+		// TODO Auto-generated method stub
+	}
+}

@@ -1,0 +1,37 @@
+public class Looping{
+	public static void main(String[] args) {
+		System.out.println("The for loop:");
+		for(int k = 0; k <= 5 ; k++){	 //  Variable initiated is k; condition, k<5 ; action increase k by 1
+			System.out.println("\tsay "+k);// The repeated action is encapsulated by {Curly Brackets} 
+		}//end for
+		
+		pressAnyKeyToContinue();
+		System.out.println("	The while loop:");
+		int k = 0;						 // Here we create the variable k before the loop (it belongs to the main method) 
+		while(k < 5){ 
+			System.out.println("	oh "+k); // Again we have an action repeated
+			k++;
+		}//end while
+		pressAnyKeyToContinue();
+		System.out.println("Recursion:");
+		
+	}
+	
+	static void recPrint(int n){ // n represents a variable passed to the method recPrint
+		System.out.println("	k? "+n);
+		if(n>0){
+			recPrint(n);
+		}
+	}
+	
+	 static void pressAnyKeyToContinue() // This is just a little piece of helper code
+	 {//Notice the {} and indentation.
+	        System.out.println("Press any key to continue...");
+	        try
+	        {
+	            System.in.read();
+	        }  
+	        catch(Exception e)
+	        {}  
+	 }
+}
