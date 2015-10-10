@@ -12,7 +12,7 @@ print("	The while loop:")
 k = 0			# Here we create the variable k before the loop (it belongs to the main method) 
 while(k < 5):
 	raw_input("")
-	print("	oh "+str(k))# Again we have an action repeated
+	print("\toh "+str(k))# Again we have an action repeated
 	k+=1
 #end while
 raw_input("Press enter to continue...")
@@ -21,7 +21,7 @@ print("Recursion:")
 
 def recPrint(n):# Here we define the recrsive method
 	raw_input("")
-	print("	k? "+str(n))
+	print("\tk? "+str(n))
 	if(n>0):
 		recPrint(n-1)
 	#end if

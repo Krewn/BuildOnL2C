@@ -3,7 +3,7 @@
 print("The for loop:")		
 for k in range(1,6):#  k is initiated as a temporary variable for each element in range(1,6) [1,2,3,4,5]
 	raw_input("")
-	print("\tsay "+str(k)) # The repeated action is encapsulated by :Curly Brackets 
+	print("\tsay "+str(k)) # The repeated action is tabbed in below the loop declaration 
 #end for
 raw_input("Press enter to continue...")
 print("	The while loop:")
